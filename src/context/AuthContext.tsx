@@ -1,5 +1,6 @@
 import { createContext, useEffect, useState, ReactNode, useContext } from "react";
 import { decryptData, encryptData } from "../utils/encryptation";
+import React from 'react';
 
 interface User {
   role: string;

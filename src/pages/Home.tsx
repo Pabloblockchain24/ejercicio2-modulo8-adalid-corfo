@@ -2,6 +2,7 @@ import { useRef } from "react";
 import ServiceList from "../components/ServiceList";
 import { useAuth } from "../context/AuthContext";
 import { NavLink } from "react-router-dom";
+import React from "react";
 
 const Home: React.FC = () => {
   const { user } = useAuth();
