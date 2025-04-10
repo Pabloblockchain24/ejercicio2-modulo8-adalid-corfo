@@ -1,4 +1,4 @@
-# Ejercicio práctico 2 - Módulo 6 Adalid Corfo
+# Ejercicio práctico 2 - Módulo 8 Adalid Corfo
 
 ## Descripción del Proyecto
 
@@ -11,15 +11,48 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 1. **Clona el repositorio:**
 
    ```bash
-   git clone https://github.com/Pabloblockchain24/ejercicio2-modulo6-adalid-corfo.git
+   git clone https://github.com/Pabloblockchain24/ejercicio2-modulo8-adalid-corfo.git
    ```
    
-   cd ejercicio2-modulo6-adalid-corfo
+   cd ejercicio2-modulo8-adalid-corfo
 
    npm install
    npm run server 
    npm run sass
    npm run dev 
+
+##  Despliegue en servicio de hosting ▲ Vercel
+
+Este proyecto fue desplegado en Vercel, una plataforma de hosting optimizada para aplicaciones frontend modernas. A continuación, se detalla el proceso utilizado para desplegar esta aplicación React desarrollada con Vite:
+
+### 📁 Flujo de Despliegue
+
+1. Repositorio en GitHub
+   -  El código fuente del proyecto se encuentra versionado en un repositorio público de GitHub.
+   -  Cualquier cambio en la rama principal (main) activa automáticamente un nuevo despliegue.
+
+2. Integración con Vercel
+   - Se accedió a la plataforma de Vercel y se autenticó con una cuenta de GitHub.
+   - Desde el panel de control de Vercel, se seleccionó la opción “Import Project”.
+   - Se vinculó el repositorio correspondiente del proyecto alojado en GitHub.
+
+3. Configuración del Proyecto
+   - Durante el proceso de importación, Vercel detectó automáticamente que se trataba de una aplicación basada en Vite.
+
+   - La configuración predeterminada fue:
+      - Framework Preset: Vite
+      - Build Command: vite build
+      - Output Directory: dist
+
+   - No se requerían configuraciones adicionales, ya que Vercel maneja automáticamente el entorno de construcción y despliegue para Vite.
+
+4. Despliegue Automático
+   - Una vez completada la configuración, Vercel realizó el primer despliegue automático.
+   -  Desde ese momento, cada push a la rama principal en GitHub genera un nuevo build y despliegue de forma continua (CI/CD).
+
+5. Resultado
+   - El sitio quedó disponible en una URL pública generada por Vercel, con soporte HTTPS y CDN global incluido.
+
 
 ## Estructura de carpetas y archivos
 
