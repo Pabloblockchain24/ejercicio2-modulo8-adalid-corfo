@@ -19,3 +19,5 @@ test("muestra el componente Navbar", () => {
     screen.getByText("Home", { normalizeWhitespace: true })
   ).toBeInTheDocument();
 });
+
+console.log('rama develop funcionando')
