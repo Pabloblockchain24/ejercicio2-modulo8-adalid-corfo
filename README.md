@@ -58,15 +58,17 @@ Este proyecto fue desplegado en Vercel, una plataforma de hosting optimizada par
 A lo largo del desarrollo del curso, he recibido varias recomendaciones que me han permitido mejorar tanto la funcionalidad como la experiencia de usuario del sitio. A continuación, detallo algunos de los principales comentarios recibidos:
 
 ### Mejorar velocidad de carga
-
+```
 Comentario:  Se mencionó que la carga inicial de la página podría mejorarse para ofrecer una experiencia más fluida a los usuarios.
+
 Acción: Realicé una optimización de imágenes, reduciendo su tamaño sin sacrificar calidad
-
-### Mejorar la Sección de Servicios médicos
-
+```
+### Mejorar la sección de Servicios médicos
+```
 Comentario: La sección de "Servicios medicos" inicialmente mostraba solo imágenes estáticas sin mucha información sobre cada uno de los médicos. Se sugirió proporcionar más detalles sobre el médico.
-Acción: Cambie cada tarjeta entregando mas información de cada médico y agregue un modal, para que pudiera desplegarse aún mas información y visualizar la imagen más grande.
 
+Acción: Cambie cada tarjeta entregando mas información de cada médico y agregue un modal, para que pudiera desplegarse aún mas información y visualizar la imagen más grande.
+```
 
 ## Estructura de carpetas y archivos
 
